@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="/logo.svg" type="image/x-icon"> -->
+  <title>HTML, CSS, JS Compiler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="run()">
+  <div class="container">
+    <div class="left">
+      <label>HTML<i>🧳</i> </label>
+      <textarea id="htmlcode" onkeyup="run()"><h1>Welcome To Coding World</h1> </textarea>
+
+      <label>CSS<i>🐬</i> </label>
+      <textarea id="csscode" onkeyup="run()"></textarea>
+
+      <label>JAVASCRIPT<i>🌍</i></label>
+      <textarea id="jscode" onkeyup="run()"></textarea>
+
+    </div>
+    <div class="right">
+      <label>OUTPUT<i>🏃</i></label>
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
